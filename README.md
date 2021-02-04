@@ -1,14 +1,3 @@
-<h1 align="center">
-	<br>
-	<a href="https://wordpress.org/plugins/filter-wp-api/" target="_blank"><img src="https://raw.githubusercontent.com/ogulcan/filter-wp-api/master/img/icon.png" alt="Filter WP API" width="300"></a>
-  	<br>
-  	Filter Wordpress REST API
-  	<br>
-</h1>
-
-
-<h4 align="center">A wordpress plugin that clears huge fields of <a href="https://developer.wordpress.org/rest-api/" target="_blank">WP Rest API</a>.</h4>
-
 ## Overview
 
 If you ever used WP Rest API, you should have noticed that there are lots of fields that even your client does not need. It makes no sense to load all fields for simple list or even single post view.
@@ -103,58 +92,17 @@ And here is `detailed` endpoint looks like for example users:
 [
 	{
 		"id": 2,
-		"name": "Murat Karayalçın",
+		"name": "Example User1",
 		"desc": "",
 		"image": "http://0.gravatar.com/avatar/ce98d9ae4bc62f57b6427e3c8abad827?s=96&d=mm&r=g",
 		"link": "http://localhost/politikyol/author/mkarayalcin/"
 	},
 	{
 		"id": 1,
-		"name": "Oğulcan Orhan",
+		"name": "Example User2",
 		"desc": "",
 		"image": "http://0.gravatar.com/avatar/6f673b9475f85fd6f49c62202aff96b5?s=96&d=mm&r=g",
 		"link": "http://localhost/politikyol/author/root/"
 	}
 ]
 ``` 
-
-## Installition
-
-Plugin is ready on wordpress [plugins][https://wordpress.org/plugins/filter-wp-api/]. You can find via search on plugins. Or just download this project and upload `filter-wp-api/` directory into your `wp-content/plugins`. 
-
-After installition, just add `?_compact` or `?_detailed` as GET parameter at the end of the URL.
-
-## Notes
-
-* First image of featured media will be added as 'image' on detailed.
-* Modified was used as default date.
-* Wordpress version should be higher than 4.7
-
-### Links
-
-* [WP Rest API](https://developer.wordpress.org/rest-api/)
-* [WordPress Plugin Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
-* [Awesome Readme](https://github.com/matiassingers/awesome-readme)
-* [Issues](https://github.com/ogulcan/filter-wp-api/issues)
-* [Changelog](https://github.com/ogulcan/filter-wp-api/blob/master/CHANGELOG.md)
-
-#### License
-
-All code found in this repository is licensed under GPL v3
-[source]
-----
-    Copyright (C) 2017 Ogulcan Orhan
-
-    Filter WP Api is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Filter WP Api is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-----
